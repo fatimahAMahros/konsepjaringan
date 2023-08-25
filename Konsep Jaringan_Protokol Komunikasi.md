@@ -1,12 +1,11 @@
 # Protokol Komunikasi
-**Mata Kuliah Konsep Jaringan
-Politeknik Elektronika Negeri Surabaya
-![Logo PENS](https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png)
-Nama Dosen Pengampu: Ferry Astika Saputra
-Oleh:
-Nama:   Fatimah Az-zahra' Mahros
-NRP:    3122600002
-Kelas:  2 D4 ITA**
+**Mata Kuliah Konsep Jaringan**
+**Politeknik Elektronika Negeri Surabaya**
+**Nama Dosen Pengampu: Ferry Astika Saputra**
+**Oleh:**
+**Nama:   Fatimah Az-zahra' Mahros**
+**NRP:    3122600002**
+**Kelas:  2 D4 ITA**
 ## Protokol Model OSI
 Model OSI (Open Systems Interconnection) adalah model referensi yang digunakan untuk memahami dan menggambarkan cara komunikasi jaringan komputer berlangsung. Model ini dibuat oleh ISO (International Organization for Standardization) pada tahun 1984 sebagai cara untuk menggambarkan dan memahami berbagai komponen yang terlibat dalam proses komunikasi jaringan dengan tujuan untuk mempermudah pemahaman terhadap komunikasi jaringan yang kompleks dengan memecahnya menjadi beberapa lapisan. Model ini terdiri dari 7 lapisan atau layer yang masing-masing layernya memiliki fungsinya sendiri yakni: physical, data link, network, transport, session, presentation, dan aplication.
 ![Ilustrasi Model OSI](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/808px-Osi-model-jb.svg.png?20150501092329)
