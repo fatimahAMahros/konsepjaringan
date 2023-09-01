@@ -1,18 +1,12 @@
-# Protokol Komunikasi
-**Mata Kuliah Konsep Jaringan
-Politeknik Elektronika Negeri Surabaya
-![Logo PENS](https://upload.wikimedia.org/wikipedia/id/4/44/Logo_PENS.png)
-Nama Dosen Pengampu: Ferry Astika Saputra
-Oleh:
-Nama:   Fatimah Az-zahra' Mahros
-NRP:    3122600002
-Kelas:  2 D4 ITA**
-## Protokol Model OSI
-Model OSI (Open Systems Interconnection) adalah model referensi yang digunakan untuk memahami dan menggambarkan cara komunikasi jaringan komputer berlangsung. Model ini dibuat oleh ISO (International Organization for Standardization) pada tahun 1984 sebagai cara untuk menggambarkan dan memahami berbagai komponen yang terlibat dalam proses komunikasi jaringan dengan tujuan untuk mempermudah pemahaman terhadap komunikasi jaringan yang kompleks dengan memecahnya menjadi beberapa lapisan. Model ini terdiri dari 7 lapisan atau layer yang masing-masing layernya memiliki fungsinya sendiri yakni: physical, data link, network, transport, session, presentation, dan aplication.
-![Ilustrasi Model OSI](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/808px-Osi-model-jb.svg.png?20150501092329)
-*Gambar: Ilustrasi lapisan pada model OSI(Sumber: Wikimedia Commons)*
+## Protokol Komunikasi
+### Protokol Model OSI
+<p>Model OSI (Open Systems Interconnection) adalah model referensi yang digunakan untuk memahami dan menggambarkan cara komunikasi jaringan komputer berlangsung. Model ini dibuat oleh ISO (International Organization for Standardization) pada tahun 1984 sebagai cara untuk menggambarkan dan memahami berbagai komponen yang terlibat dalam proses komunikasi jaringan dengan tujuan untuk mempermudah pemahaman terhadap komunikasi jaringan yang kompleks dengan memecahnya menjadi beberapa lapisan. Model ini terdiri dari 7 lapisan atau layer yang masing-masing layernya memiliki fungsinya sendiri yakni: physical, data link, network, transport, session, presentation, dan aplication.</p>
 
-Berikut penjelasan dari setiap layer yang ada pada protokol OSI:
+![Ilustrasi Model OSI](https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Osi-model-jb.svg/808px-Osi-model-jb.svg.png?20150501092329)
+*<p>Gambar: Ilustrasi lapisan pada model OSI(Sumber: Wikimedia Commons)</p>*
+
+<p>Berikut penjelasan dari setiap layer yang ada pada protokol OSI:</p>
+
 1. Applikation layer(lapisan ke-7)
 Lapisan paling atas ini berfungsi sebagai interface dengan aplikasi dengan fungsionalitas jaringan, mengatur bagaimana aplikasi dapat mengakses jaringan, dan membuat error message. Protokol yang digunakan dalam layer ini diantara lainnya adalah HTTP, FTP, DNS, IMAP, dan lainnya. Antara protokol yang digunakan oleh sender dan receiver haruslah sama(contoh: sender menggunakan HTTP, maka receiver juga harus menggunakan HTTP).
 
@@ -34,13 +28,14 @@ Lapisan ini berfungsi untuk menentukan bagaimana bit-bit data dikelompokkan menj
 7. Physical Layer(lapisan ke-1)
 Lapisan ini berfungsi untuk mentransmisikan data dalam bentuk bit stream. Adapun jenis sinyal yang dipakai pada lapisan ini tidak boleh sembarangan dan jenisnya pun harus didukung media fisik, seperti fiber optik, gelombang radio, dan kabel listrik.
 
-## TCP/IP
-TCP/IP(Transmission Communication Protocol/Internet Protocol) adalah salah satu protokol jaringan yang menjadi standar komunikasi data dalam jaringan komputer dan digunakan untuk proses pertukaran data antar perangkat, biasanya yang terhubung melalui jaringan internet. Protokol ini dikembangkan sejak akhir 70-an hingga awal 80-an untuk membentuk sebuah WAN. Protokol ini menggunakan skema pengalamatan yang sederhana yaitu IP sehingga memunkinkan berjuta-juta komputer untuk dapat saling berhubungan satu sama lainnya melalui Internet. Berbeda dengan model OSI yang pada arsitekturnya memiliki 7 lapisan, TCP/IP hanya memiliki 4 lapisa tapi dapat dipetakan kembali terhadap model OSI. Keempat lapisan tersebut adalah: application, transport, network, network interface.
+### TCP/IP
+<p>TCP/IP(Transmission Communication Protocol/Internet Protocol) adalah salah satu protokol jaringan yang menjadi standar komunikasi data dalam jaringan komputer dan digunakan untuk proses pertukaran data antar perangkat, biasanya yang terhubung melalui jaringan internet. Protokol ini dikembangkan sejak akhir 70-an hingga awal 80-an untuk membentuk sebuah WAN. Protokol ini menggunakan skema pengalamatan yang sederhana yaitu IP sehingga memunkinkan berjuta-juta komputer untuk dapat saling berhubungan satu sama lainnya melalui Internet. Berbeda dengan model OSI yang pada arsitekturnya memiliki 7 lapisan, TCP/IP hanya memiliki 4 lapisa tapi dapat dipetakan kembali terhadap model OSI. Keempat lapisan tersebut adalah: application, transport, network, network interface.</p>
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20230417045622/OSI-vs-TCP-vs-Hybrid-2.webp)
-*Gambar: Ilustrasi antara model OSI dengan TCP/IP(Sumber: Geeksforgeeks)*
+*<p>Gambar: Ilustrasi antara model OSI dengan TCP/IP(Sumber: Geeksforgeeks)</p>*
 
-Berikut penjelasan dari setiap layer pada TCP/IP:
+<p>Berikut penjelasan dari setiap layer pada TCP/IP:</p>
+
 1. Application Layer(lapisan ke-4)
 Lapisan ini berfungsi untuk menyediakan akses untuk aplikasi terhadap layanan jaringan dari TCP/IP. Lapisan ini memiliki kesamaan dengan application layer pada model OSI. Protokol yang dicakup oleh lapisan ini diantara lainnya adalah HTTP, FTP, SMTP, DNS, dan lainnya.
 
