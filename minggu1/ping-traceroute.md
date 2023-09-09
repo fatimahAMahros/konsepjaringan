@@ -1,5 +1,4 @@
 ## Ping dan Traceroute
-
 ---
 
 ### Ping
