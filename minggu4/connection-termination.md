@@ -1,0 +1,13 @@
+## Connection Termination
+Proses Connection termination atau pemutusan koneksi adalah langkah-langkah yang diperlukan untuk mengakhiri koneksi antara clinet dan server yang sebelumnya terhubung. Proses ini penting terjadinya dalam protokol komunikasi untuk memastikan alokasi sumber daya dilepaskan dengan benar dan tidak ada data yang terperangkap dalam kondisi tidak selesai pengirimannya. Metode pemutusan koneksi ini berbeda tergantung dengan protokol komunikasi yang diunakan.
+
+Terdapat istilah half-close dan full-close dalam pemutusan koneksi yang merujuk pada dua cara pemutusan koneksi yang terjadi pada penutupan sebuah koneksi TCP.
+
+### Half-Close
+Pemutusan koneksi secara half-close terjadi ketika salah satu pihak yang terhubung dalam koneksi TCP memutuskan untuk mengakhiri pengiriman data akan tetapi masih dapat menerima data dari pihak yang lain, misal:
+Ketika client telah mengirimkan semua data yang eprlu dikirim dan hanya perlu menunggu balasan dari server, maka client akan mengirimkan sebuah flag FIN yang menandakan bahwa pihak client sudah selesai mengirimkan semua datanya. Pada saat ini, server masih belum menginisiasi proses pemutusan koneksi sehingga server masih dapat mengirim data ke client dan client dapat menerima dan membaca data yang dikirim tersebut. Server akan dapat mengirim data terus-menerus dan client masih dapat menerima data tersebut selama server tidak menginisiasi pemutusan dengan mengirimkan flag FIN ke client.
+
+### Full-Close
+Full-close mengacu pada pemutusan koneksi dimana koneksi jaringan diakhiri sepenuhnya sehingga semua pihak tidak dpaat mengirim maupun menerima data dari pihak lainnya. Pada praktiknya, koneksi jaringan diakhiri sepenuhnya termasuk penutupan saluran komunikasi di kedua ujung koneksi serta pelepasan sumber daya yang terkait dengan koneksi tersebut. Pemutusan secara full-close adalah cara yang paling aman untuk mengakhiri koneksi dan memastikan bahwa tidak ada komunikasi tambahan yang mungkin terjadi di atas koneksi tersebut. Salah satu kondisi dimaana metode ini sering digunakan adalah pada penutupan sebuah aplikasi atau program.
+
+Jika pada half-close flag FIN hanya dikirimkan oleh salah satu sisi, pada full-close, setelah slaah satu pihak mengirimkan flag FIN dan dibalas dengan flag ACK, pihak lain dari koneksi tersebut akan mengirim balik flag FIN yang menandakan bahwa kedua pihak sepakat untuk mengakhiri koneksi sepenuhnya.
