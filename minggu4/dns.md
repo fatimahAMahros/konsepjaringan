@@ -1,0 +1,8 @@
+## DNS
+Domain Name System, dikenal juga sebagai DNS, adalah sistem yang digunakan untuk menerjemahkan nama domain yang mudah diingat menjadi alamat IP numerik yang digunakan untuk mengidentifkiasi dan mencari alamat server atau peragkat di internet. DNS merupakan bagian kunci dari infrastruktur internet yang memungkinkan kita menggunakan nama domain(misal www.abcdef.com) daripada menggunakan alamat IP numrik untuk mengakses sebuah server.
+
+### Struktur
+Struktur DNS mencakup beberapa elemen penting yang membentuk fondasi bagi cara nama domain dikelola dan digunakan di seluruh internet. Beberapa konsep utama yaitu:
+- Doamin Name Space: domain name space terdiri dari struktur pohon data. Setiap node atau leaf pada pohon tersebut memeiliki label dan nol atau lebih resource record(RR) yang menyimpan informasi berhubungan dnegan nama domain. Nama domain sendiri terdiri dari label, digabungkan dengan nama dari parent node dan dipisahkan dnegan titik.
+- Name Servers: DNS diatur dan ditata oleh sisten=m database yang terdistribusi, menggunakan model client-server. Noda-noda pada database ini adalah name server tersebut. Setiap domain memiliki setidaknya satu server DNS authoritatife yang emngeluarkan informasi tentang domain tersebiut dan name server dari domain yang berhubungan dengannya.
+- Domain NAme Syntax: Domain name syntax mengatur karakter yang diperbolehkan dalam sebuah nama domain. Ini termasuk huruf (A-Z), angka (0-9), tanda hubung (-), dan titik (.) yang digunakan sebagai pemisah antara komponen domain. Nama domain harus mengikuti aturan tertentu, seperti tidak boleh memiliki spasi atau karakter khusus lainnya. Nama domain bersifat case insensitive.
