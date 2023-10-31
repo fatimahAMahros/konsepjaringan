@@ -27,4 +27,56 @@ Dari gambar grafik diatas, anda dapat melihat jaringan PENS(AS46052) terhubung d
 <i>Gambar: Ilustrasi Topologi Jaringan pada cisco packet tracer.</i>
 </p>
 
-Pada perc
+### Konfigurasi
+
+#### Router0
+Static:
+- 192.168.20.16/28 via 192.168.1.242
+- 192.168.40.64/26 via 192.168.2.242
+- 192.168.30.32/27 via 192.168.1.242
+
+Pada Router0, untuk mencapai alamat pada Router2, dilewatkan Router1 karena Router0 tidak memiliki koneksi langsung dengan Router2, akan tetapi baik Router0 maupun Router2 terhubung dengan Router1.
+
+FastEthernet:
+- Fa 0/0: 192.168.1.241
+- Fa 1/0: 192.168.2.241
+- Fa 6/0: 192.168.10.65
+
+#### Router1
+Static:
+- 192.168.10.64/26 via 192.168.1.241
+- 192.168.40.64/26 via 192.168.4.241
+- 192.168.30.32/27 via 192.168.3.242
+
+Karena Router1 terhubung dengan semua router lainnya, rute staticnya langsung diarahkan pada koneksi jaringan masing-masing router yang terhubung.
+
+FastEthernet:
+- Fa 0/0: 192.168.1.242
+- Fa 1/0: 192.168.3.241
+- Fa 6/0: 192.168.4.242
+- Fa 7/0: 192.168.20.17
+
+#### Router2
+Static:
+- 192.168.20.16/28 via 192.168.3.241
+- 192.168.10.64/26 via 192.168.3.241
+- 192.168.40.64/26 via 192.168.3.241
+
+Pada Router2, semua static-nya dikonfigurasi sehingga melewati Router1 karena Router2 hanya terhubungkan dengan Router1, sedangkan Router1 terhubung dengan semua router yang ada. Sehingga untuk perangkat yang terhubung pada Router2 dapat berkomunikasi dengan perangkat pada jaringan yang lain.
+
+FastEthernet:
+- Fa 0/0: 192.168.3.242
+- Fa 1/0: 192.168.30.33
+
+#### Router3
+Static:
+- 192.168.10.0/24 via 192.168.2.241
+- 192.168.20.16/28 via 192.168.4.242
+- 192.168.30.32/27 via 192.168.4.242
+
+Pada Router3, untuk mencapai alamat pada Router2, dilewatkan Router1 karena Router0 tidak memiliki koneksi langsung dengan Router2, akan tetapi baik Router3 maupun Router2 terhubung dengan Router1.
+
+FastEthernet:
+- Fa 0/0: 192.168.2.242
+- Fa 1/0: 192.168.4.241
+- Fa 6/0: 192.168.40.65
