@@ -33,7 +33,7 @@ Melakukan ping antar PC yang terhubung pada satu router yang sama melalui kabel 
 <p align="center">
 <img src="../assets/logical-model-pcs.jpg">
 <br>
-<i>Gambar: Logical model yang mengilustrasikan cara</i>
+<i>Gambar: Logical model yang mengilustrasikan cara router berhubung dengan PC dan perangkat tamabahan mealuli hub menggunakan kabel.</i>
 </p>
 
 
