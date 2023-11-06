@@ -21,7 +21,13 @@ Melakukan ping antar PC yang terhubung pada satu router yang sama melalui kabel 
 </p>
 
 ## Physical Model
+<p align="center">
+<img src="../assets/physical-model.png">
+<br>
+<i>Gambar: Physical model</i>
+</p>
 
+Pada router board ini, port ETH1 terhubung ke router utama, sementara port ETH3, ETH4, dan ETH5 terhubung secara berurutan ke PC3, PC2, dan PC1. Selain itu, port eth6 terhubung ke sebuah hub. Dengan konfigurasi ini, router board ini dapat menghubungkan router utama dengan tiga komputer (PC1, PC2, dan PC3) melalui port ETH3, ETH4, dan ETH5, serta terhubung ke perangkat lain melalui hub yang terhubung ke port ETH6.
 
 ## Logical Model
 <p align="center">
