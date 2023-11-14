@@ -22,7 +22,7 @@ Melakukan ping antar PC yang terhubung pada satu router yang sama melalui kabel 
 
 ## Physical Model
 <p align="center">
-<img src="../assets/physical-model.png">
+<img src="../assets/physical-model.jpg">
 <br>
 <i>Gambar: Physical model</i>
 </p>
