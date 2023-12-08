@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Analisisi Flowgraph Requst HTTP
 Flow graph dapat dilihat melalui Statistics->Flow graph. Flow graph ini berfungsi untuk menampilkan koneksi yang terjadi diantara client dan server disertai dengan detil waktu dan arah komunikasinya, dari awal dibuatnya koneksi hingga penutupan koneksi.
 <p align="center">

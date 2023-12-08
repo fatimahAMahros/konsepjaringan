@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## DNS
 Domain Name System, dikenal juga sebagai DNS, adalah sistem yang digunakan untuk menerjemahkan nama domain yang mudah diingat menjadi alamat IP numerik yang digunakan untuk mengidentifkiasi dan mencari alamat server atau peragkat di internet. DNS merupakan bagian kunci dari infrastruktur internet yang memungkinkan kita menggunakan nama domain(misal www.abcdef.com) daripada menggunakan alamat IP numrik untuk mengakses sebuah server.
 

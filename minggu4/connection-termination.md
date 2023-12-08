@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Connection Termination
 Proses Connection termination atau pemutusan koneksi adalah langkah-langkah yang diperlukan untuk mengakhiri koneksi antara clinet dan server yang sebelumnya terhubung. Proses ini penting terjadinya dalam protokol komunikasi untuk memastikan alokasi sumber daya dilepaskan dengan benar dan tidak ada data yang terperangkap dalam kondisi tidak selesai pengirimannya. Metode pemutusan koneksi ini berbeda tergantung dengan protokol komunikasi yang diunakan.
 

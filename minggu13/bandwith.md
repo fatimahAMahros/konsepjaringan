@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # Bandwith
 ## Tes Bandwith Menggunakan fast.com
 <p align="center">

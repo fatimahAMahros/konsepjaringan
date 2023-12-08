@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Versi HTTP dan Penggunaan TCP Keep-Alive
 Koneksi TCP, selalu diawali dan diakhiri dengan sebuah *three-way handshake* dimana client dan server saling mengirim sinyal dalam pembuat an sebuah koneksi. Hal ini dapat memakan waktu yang cukup banyak apabila setiap segmen/request perlu menggunakan sesi yang berbeda-beda.<br>
 HTTP persistent connection, atau kerap dikenal HTTP keep-alive adalah sebuah konsep dimana satu koneksi TCP digunakan untuk mengirimkan dan menerima beberapa request/respon HTTP daripada membuat sebuah koneksi baru untuk setiap pasangan requst/respon.

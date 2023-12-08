@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # PING, IP ROUTE, LOGICAL AND PHYSICAL ROUTER MODEL
 
 ## Ping antar PC

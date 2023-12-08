@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # 1 Router Network Configuration
 ## 1 Router, 2 Switch, 4 PC
 ### Konfigurasi

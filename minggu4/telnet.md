@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Telnet
 Teletype Network, disingkat Telnet, adalah protokol aplikasi yang digunakan untuk mengakses  dan menegendalikan perangkat jarak jauh melalui jaringan internet maupun LAN dan bersifat interaktif dua arah. Telnet terdiri dari dua komponen:
 1. Protokol itu sendiri yang menentukan abagaimana kedua belah pihak berkomunikasi, dan

@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # Aplikasi Chat
 Pada percobaan kali ini, kita menggunakan aplikasi chat yang sebelumnya pernah digunakan(simple socket server and client) dan menggunakannya untuk berkomunikasi kepada PC di kelompok lain(di sini antar kelompok 9 dan kelompok 10).
 

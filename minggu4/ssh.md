@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## SSH
 Secure Shell Protocol, dikenal juga sebagai SSH, adalah protokol jaringan kriptografi yang digunakan untuk mengoperasikan layanan jarinagn secara aman pada sebuah jaringan terbuka/tidak aman. SSH dirancang pada OS menyerupai Unix, sebagai pengganti dari Telnet dan protokol jarak jauh Unix Shell seperti rsh, rlogin, dan rexec yang menggunakan token autentikasi yang tidak terenkripsi.
 

@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Cisco Packet Tracer
 
 Cisco Packet Tracer adalah software simulasi jaringan yang dikembangkan oleh Cisco System. Software ini dirancang untuk membantu dalam pemahaman, perancangan, dan pengujian konsep jaringan komputer yang berbeda dalam sebuah lingkungan virtual yang aman. Packet Tracer ini menjadi alat yang sangat berguna dalam pendidikan, pelatihan, perencanaan jaringan, dan pengembangan keterampilan jaringan. 

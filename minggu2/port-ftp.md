@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Mengapa FTP dapat menggunakan TCP dan UDP
 
 File Transfer Protocol(FTP) adalah protokol internet yang memungkinkan komputer dalam sebuah jaringan untuk bertukar file secara massal. Pada umumnya FTP menggunakan protokol TCP sebagai metode komunikasi utamanya. TCP digunakan karena pengirimannya yang bersifat reliable dan adanya pengaturan urutan sehingga dapat diapstikan integritas dan kehandalan transfer data. Akan tetapi, secara teori ada variasi implementasi FTP yang juga dapat menggunakan UDP walaupun bukan suatu praktek yang umum.

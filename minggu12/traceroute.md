@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # Traceroute 1.1.1.1 dan detik.com
 ## Traceroute 1.1.1.1
 <p align="center">

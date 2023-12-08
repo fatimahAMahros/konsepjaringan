@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 ## Analisis http.cap, telnet-cooked.cap dan dns.cap pada Wireshark
 ---
 

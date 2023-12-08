@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # Dynamic Routing
 Dynamic routing, atau kerap dikenal sebagai adaptive routing, adalah proses dimana router dapat menentukan rute yang akan dilewati untuk mengirimkan data pada tujuan berdasarkan kondisi jaringan saat itu(real-time). Berbeda dengan static routing yang mana rute yang sudah dibuat bersifat tetap dan tidak menangani kasus terjadinya perubahan dalam jaringan(seperti connection loss), dynamic routing dapat tetap menjaga ketersinambungan rute dengan menerapkan protokol dinamis. Protokol routing dinamis ini dapat menjadikan dynamic routing dapat melakukan *route-around* dari sebuah kehilangan atau keruusakan yang ada dalam route. Terdapat banyak protokol routing dinamis, diantaranya RIP, BGP, dan IGRP. Dengan itu, dynamic routing dibuat untuk menangani masalah yang sebelumnya terdapat pada static routing.
 

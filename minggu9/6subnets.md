@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # Subnetting
 Pada percobaan kali ini, kita melalkukan subnetting pada IP 12.0.0.0/8 menjadi 6 subnet.
 

@@ -1,3 +1,5 @@
+`Tugas ini merupakan tugas mata kuliah konsep jaringan  yang di bimbing oleh Bpk. Ferry Astika S`
+
 # ROUTING
 ## Routing Types
 Routing dapat dibagi menjdi 2, static dan dynamic. Berikut penjelasnyya:
